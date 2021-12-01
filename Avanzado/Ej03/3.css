@@ -1,0 +1,45 @@
+
+
+body{
+    background-image: url("fondo.jpg");
+}
+div.dive{
+    
+    box-shadow:15px 15px 50px black;
+height: 80%;
+width: 90%;
+
+}
+ul.manejo{
+
+list-style: none;
+width: 30%;
+margin-left: 25%;
+padding-top: 70px;
+
+padding-bottom: 110px;
+
+}
+li{
+    color: #eae6cac0;
+font-size: 25px;
+margin-top:40px;
+transition:all 1s;
+
+
+
+}
+li:hover{
+    transition-property:all;
+transition-duration: 0.6s;
+    
+    transform:translate(2%,0);
+    
+    text-decoration:underline rgba(80, 80, 219, 0.986) ;
+    color:rgb(18, 187, 243);
+    font-size:50px;
+font-family: "Lucida Console", "Courier New", monospace;
+
+ 
+cursor: url(NormalCerdito.cur),help;
+}

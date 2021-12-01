@@ -1,0 +1,39 @@
+*{
+    background:lightblue;
+}
+
+
+div.bola{
+background: url(shadow_highlight.png) no-repeat;
+height: 300px;
+width: 300px;
+background-size: 300px ;
+margin-left:30%;
+margin-top: 10%;
+position: absolute;
+
+
+}
+div.mapa{
+    background: url(mapa.png) ;
+    height: 280px;
+    width: 290px;
+    background-size: 600px 280px;
+    margin-left:31%;
+    margin-top: 11%;
+    border-radius: 100%;
+    
+    position: absolute;
+    animation:girar 6s normal infinite linear;
+ 
+}
+@keyframes girar{
+
+   from {
+       background-position: 0 0;
+   }
+   to{
+       background-position: -600px 0px;
+   }
+}
+

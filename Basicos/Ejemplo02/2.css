@@ -1,0 +1,18 @@
+
+h1.titulo{
+
+border: 2px dashed blue;
+width: 500px;
+height: 100px;
+padding: 15px; /*separar el texto de dentro*/
+line-height: 100px;/*separar lineas de texto*/
+border-radius: 20px 50px;
+text-align: center;
+background-color: lightblue;
+cursor: crosshair;
+margin:0 auto;
+}   
+
+p.mayus{
+    text-transform: uppercase;
+}

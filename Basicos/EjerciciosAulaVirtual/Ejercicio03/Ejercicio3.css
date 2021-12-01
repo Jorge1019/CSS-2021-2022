@@ -1,0 +1,61 @@
+#titulo{
+
+
+    color:cadetblue;
+}
+p strong{
+    color:red;
+}
+span.destacado{
+    color:rgb(240, 175, 56);
+}
+#subtitulo{
+    color:blue;
+}
+p a{
+    color:red;
+}
+p a em{
+    color:rgb(75, 75, 241);
+}
+span.especial{
+    color:purple;
+}
+caption{
+    color: rgb(75, 75, 241);
+}
+table,tr,th,td{
+    border:0.5px solid black ;
+    border-collapse:collapse;
+   height: 40px;
+   width: 500px;
+   text-align: center;
+}
+table thead tr th.especial{
+    color:rgb(240, 175, 56);    
+}
+table tbody,tfoot tr th{
+    color:red;     
+}
+table tbody tr th.especial{
+    color:rgb(240, 175, 56);     
+}
+table tr td{
+    color:green;
+}
+table tbody tr td strong{
+    color:rgb(240, 175, 56); 
+}
+
+table tbody tr td{
+    color:rgb(6, 143, 6);
+}
+#adicional{
+    color:olive;
+}
+#especial{
+color:rgb(216, 71, 216);
+}
+#adicional p a{
+    color:green;
+}

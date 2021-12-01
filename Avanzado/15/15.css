@@ -1,0 +1,17 @@
+label{display: block;}
+label.titulo{
+
+font-weight:bold;
+
+
+}
+span.requerido{color: red;}
+li{list-style: none;  }
+ul li div{
+    margin-left: 150px; 
+}
+li:hover{background-color: yellow;color:black; }
+
+p.ayuda{color:white}
+
+p.ayuda:hover{float:right; }
