@@ -1,0 +1,24 @@
+.equipo{
+width: 200px;
+height: 200px;
+float: left;
+margin: 20px;
+font-size: 80px;
+line-height: 200px;
+text-align: center;
+}
+.equipo, .cuadro{
+    border: 1px solid black;
+    }
+    .cuadro{
+        width: 200px;
+height: 200px;
+    }
+    .rojo{
+        background-color: red;
+    }
+    .azul{
+        background-color: blue;
+    }
+    .equipo .rojo{
+float: right;    }
